@@ -63,7 +63,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  background: #fff;
+  /* background: #213b52; */
 }
 
 #header .logo h1 {
@@ -74,11 +75,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: #444444;
   text-decoration: none;
 }
 
@@ -123,13 +125,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  /* color: #fff; */
+  color: #444444;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #213b52;
-  color: #fff;
+  /* background: #213b52;
+  color: #fff; */
+  background: #fff;
+  color: #444444;
   border-radius: 50px;
   margin: 2px 0 0 15px;
   padding: 4px 25px 6px 25px;
@@ -346,9 +351,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  /* background: #213b52; */
+  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+  /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+
+  
 }
+
 
 #hero h1 {
   margin: 0 0 15px 0;
@@ -360,7 +369,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #444444;
   margin-bottom: 30px;
   font-size: 22px;
 }
