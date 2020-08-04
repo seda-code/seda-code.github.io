@@ -1,5 +1,6 @@
 
 ![Jekyll site CI](https://github.com/seda-code/seda-code.github.io/workflows/Jekyll%20site%20CI/badge.svg)
+
 Seda Code page.
 
 
