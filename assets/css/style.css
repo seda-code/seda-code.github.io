@@ -117,10 +117,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #adc7de;
+  color: #066b64;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
 }
 
