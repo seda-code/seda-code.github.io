@@ -7,5 +7,5 @@
 Based on a template:
   Template Name: Bocor  
   Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/  
-  Author: BootstrapMade.com  
+  Author: [BootstrapMade.com](https://bootstrapmade.com)  
   License: https://bootstrapmade.com/license/  
