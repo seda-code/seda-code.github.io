@@ -93,51 +93,28 @@ class Main extends React.Component {
                             <p data-aos="fade-in">We are an experienced team of software engineers who has been involved in several projects as varied as healthcare, fintech, insurtech, and automation among others.</p>
                         </div>
 
-                        <div class="row justify-content-md-center">
-
-                            <div class="col-xl-6 col-lg-4 col-md-6">
-                                <div class="card text-center">
-                                    <div class="member" data-aos="fade-up" data-aos-delay="100">
-                                        <h4>Sebastián Inones</h4>
-                                        <span >Co-Founder</span>
-                                        <br />
-                                        <p class="card-text">Software Developer Engineer specialized in .NET Core on Azure
-                                        and also doing RPA mostly with Selenium.</p>
-                                        <div class="social">
-                                            <a href="https://twitter.com/InonesSebastian"><i class="icofont-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/in/sebastianinones/"><i class="icofont-linkedin"></i></a>
-                                            <a href="https://github.com/sebainones"><i class="icofont-github"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ProfileCard name="Sebastián Inones"
+                            role="Co-Founder"
+                            description="Software Developer Engineer specialized in .NET Core and Azure.
+                                        Also, doing RPA mostly with Selenium."
+                            twitter="https://twitter.com/InonesSebastian"
+                            linkedIn="https://www.linkedin.com/in/sebastianinones/"
+                            gitHub="https://github.com/sebainones"
+                        />
+                        
                         <ProfileCard name="Daniel Valcarce"
                             role="Co-Founder"
                             description="An experienced software developer who has focused in recent years on the field of Artificial Intelligence."
-                            twitter="https://twitter.com/davamix"   
+                            twitter="https://twitter.com/davamix"
                             linkedIn="https://www.linkedin.com/in/danielvalcarce/"
                             gitHub="https://github.com/davamix" />
 
-                        <div class="row justify-content-md-center">
-
-                            <div class="col-xl-6 col-lg-4 col-md-6">
-                                <div class="card text-center">
-                                    <div class="member" data-aos="fade-up" data-aos-delay="100">
-                                        <h4>Ariel Grillo</h4>
-                                        <span>Full stack Developer</span>
-                                        <br />
-                                        <p class="card-text">
-                                            Full stack developer with experience in .Net technologies. </p>
-                                        <div class="social">
-                                            <a href="https://www.linkedin.com/in/arielgrillo/"><i class="icofont-linkedin"></i></a>
-                                            <a href="https://github.com/arielgrillo"><i class="icofont-github"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        <ProfileCard name="Ariel Grillo"
+                            role="Full stack Developer"
+                            description="Full stack developer with experience in .Net technologies."
+                            linkedIn="https://www.linkedin.com/in/arielgrillo/"
+                            gitHub="https://github.com/arielgrillo"
+                        />
 
                     </div>
                 </section>
