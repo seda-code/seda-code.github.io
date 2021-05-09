@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/style.css';
 import ProfileCard from './ProfileCard';
+import ServiceCard from './ServiceCard';
 
 class Main extends React.Component {
     render() {
@@ -41,43 +42,25 @@ class Main extends React.Component {
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./../assets/img/rpa-11.jpg" alt="..." />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="">RPA (Robotic Process Automation) Services </a></h5>
-                                        <p class="card-text">We have a very extensive experience in automation & integration services for companies.</p>
-                                    </div>
-                                </div>
 
-                            </div>
-                            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./../assets/img/services-analytics.jpg" alt="..." />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="">Machine Learning & Analytics Services</a></h5>
-                                        <p class="card-text">We provide services creating predective and analytics models.</p>
+                            <ServiceCard title="RPA (Robotic Process Automation) Services."
+                                description="We have a very extensive experience in automation & integration services for companies."
+                                imageSrc="./assets/img/rpa-11.jpg" />
 
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="./../assets/img/services-ag.jpeg" alt="..." />
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="">Backend and frontend development</a></h5>
-                                        <p class="card-text">Our strong is based on a strategic relationships in order to grow you business.</p>
 
-                                    </div>
-                                </div>
-                            </div>
+                            <ServiceCard title="Machine Learning & Analytics Services"
+                                description="We provide services creating predective and analytics models."
+                                imageSrc="./assets/img/services-analytics.jpg" />
+
+
+                            <ServiceCard title="Backend and frontend development"
+                                description="Our strong is based on a strategic relationships in order to grow you business."
+                                imageSrc="./assets/img/services-ag.jpeg"
+                            />
+
+
+
 
                         </div>
 
@@ -101,7 +84,7 @@ class Main extends React.Component {
                             linkedIn="https://www.linkedin.com/in/sebastianinones/"
                             gitHub="https://github.com/sebainones"
                         />
-                        
+
                         <ProfileCard name="Daniel Valcarce"
                             role="Co-Founder"
                             description="An experienced software developer who has focused in recent years on the field of Artificial Intelligence."
@@ -118,9 +101,6 @@ class Main extends React.Component {
 
                     </div>
                 </section>
-
-
-
 
 
 
