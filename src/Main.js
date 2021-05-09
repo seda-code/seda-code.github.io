@@ -2,6 +2,7 @@ import React from 'react';
 import './assets/css/style.css';
 import ProfileCard from './ProfileCard';
 import ServiceCard from './ServiceCard';
+import ContactCard from './ContactCard';
 
 class Main extends React.Component {
     render() {
@@ -59,9 +60,6 @@ class Main extends React.Component {
                                 imageSrc="./assets/img/services-ag.jpeg"
                             />
 
-
-
-
                         </div>
 
                     </div>
@@ -102,8 +100,6 @@ class Main extends React.Component {
                     </div>
                 </section>
 
-
-
                 <section id="contact" class="contact section-bg">
                     <div class="container">
 
@@ -116,20 +112,19 @@ class Main extends React.Component {
                             <div class="col-lg-12">
 
                                 <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                            <i class="bx bx-envelope"></i>
-                                            <h3>Email Us</h3>
-                                            <p>sedacode.info@gmail.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                            <i class="bx bxl-linkedin-square"></i>
-                                            <h3>Contact us</h3>
-                                            <p><a href="https://www.linkedin.com/company/seda-code/">Seda Code</a></p>
-                                        </div>
-                                    </div>
+
+                                    <ContactCard iconClass="bx bx-envelope"
+                                        title="Email Us"
+                                        url="sedacode.info@gmail.com"
+                                        urlTilte="sedacode.info@gmail.com" />
+
+                                    <ContactCard
+                                        iconClass="bx bxl-linkedin-square"
+                                        title="Contact us"
+                                        url="https://www.linkedin.com/company/seda-code"
+                                        urlTilte="Seda Code"
+                                    />
+
                                     <div class="col-md-3">
                                         <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                             <i class="bx bxl-twitter"></i>
@@ -137,6 +132,9 @@ class Main extends React.Component {
                                             <p><a href="https://twitter.com/seda_code">@seda_code</a></p>
                                         </div>
                                     </div>
+
+
+
                                     <div class="col-md-3">
                                         <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                             <i class="bx bx-current-location"></i>
