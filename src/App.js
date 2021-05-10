@@ -24,7 +24,7 @@ class App extends React.Component {
                     </div>
                 </section>
 
-                 <Main></Main>
+                <Main></Main>
 
                 <footer id="footer">
 

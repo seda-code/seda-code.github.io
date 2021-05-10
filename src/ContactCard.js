@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/css/style.css'
+import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
 
 class ContactCard extends React.Component {
   constructor(props) {

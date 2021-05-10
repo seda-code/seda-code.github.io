@@ -1,5 +1,7 @@
 import React from 'react';
-import './assets/css/style.css'
+import styles from './assets/css/style.css'
+import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
+
 
 class ProfileCard extends React.Component {
   constructor(props) {
@@ -14,6 +16,7 @@ class ProfileCard extends React.Component {
 
       twitterLink = <a href={this.props.twitter}><i class="icofont-twitter"></i></a>;
     }
+    
     return (
       <div class="col-xl-6 col-lg-4 col-md-6">
         <div class="card text-center">
@@ -21,7 +24,7 @@ class ProfileCard extends React.Component {
             <h4>{this.props.name}</h4>
             <span>{this.props.role}</span>
             <br />
-            <p class="card-text">
+            <p className={styles.cardText} >
               {this.props.description}
             </p>
             <div class="social">

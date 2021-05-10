@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/css/style.css'
+import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
 
 class ServiceCard extends React.Component {
     constructor(props) {
