@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/style.css'
 import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
+import logoImage from './assets/img/logo_200x200.png';
 
 class Header extends React.Component {
 
@@ -10,7 +11,7 @@ class Header extends React.Component {
                 <div class="container d-flex align-items-center">
                     <h1 class="logo mr-auto">
                         <a href="index.html">Seda C<span>
-                            <img src='./assets/img/logo_200x200.png' width="25px" />
+                            <img src={logoImage} width="25px" />
 
                         </span>de</a>
                     </h1>

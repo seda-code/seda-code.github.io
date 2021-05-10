@@ -3,6 +3,9 @@ import './assets/css/style.css';
 import Main from './Main';
 import Header from './Header'
 
+import styles from './assets/css/style.css'
+import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
+
 
 class App extends React.Component {
     render() {

@@ -1,8 +1,15 @@
 import React from 'react';
 import './assets/css/style.css';
+import styles from './assets/css/style.css'
 import ProfileCard from './ProfileCard';
 import ServiceCard from './ServiceCard';
 import ContactCard from './ContactCard';
+
+import rpaImage from './assets/img/rpa-11.jpg'; // relative path to image 
+
+import analyticsImage from './assets/img/services-analytics.jpg';
+
+import servicesImage from './assets/img/services-ag.jpeg';
 
 class Main extends React.Component {
     render() {
@@ -34,7 +41,6 @@ class Main extends React.Component {
 
                 <section id="services" class="services section-bg">
 
-
                     <div class="container">
 
                         <div class="section-title">
@@ -46,20 +52,18 @@ class Main extends React.Component {
 
                             <ServiceCard title="RPA (Robotic Process Automation) Services."
                                 description="We have a very extensive experience in automation & integration services for companies."
-                                imageSrc="./assets/img/rpa-11.jpg" />
+                                imageSrc={rpaImage} />
 
 
 
                             <ServiceCard title="Machine Learning & Analytics Services"
                                 description="We provide services creating predective and analytics models."
-                                imageSrc="./assets/img/services-analytics.jpg" />
+                                imageSrc={analyticsImage} />
 
 
                             <ServiceCard title="Backend and frontend development"
                                 description="Our strong is based on a strategic relationships in order to grow you business."
-                                imageSrc="./assets/img/services-ag.jpeg"
-                            />
-
+                                imageSrc={servicesImage}/>
                         </div>
 
                     </div>
@@ -69,85 +73,85 @@ class Main extends React.Component {
                 <section id="team" class="team section-bg">
                     <div class="container">
 
-                        <div class="section-title">
-                            <h2 data-aos="fade-in">Team</h2>
-                            <p data-aos="fade-in">We are an experienced team of software engineers who has been involved in several projects as varied as healthcare, fintech, insurtech, and automation among others.</p>
-                        </div>
+                                <div class="section-title">
+                                    <h2 data-aos="fade-in">Team</h2>
+                                    <p data-aos="fade-in">We are an experienced team of software engineers who has been involved in several projects as varied as healthcare, fintech, insurtech, and automation among others.</p>
+                                </div>
 
-                        <ProfileCard name="Sebastián Inones"
-                            role="Co-Founder"
-                            description="Software Developer Engineer specialized in .NET Core and Azure.
+                                <ProfileCard name="Sebastián Inones"
+                                    role="Co-Founder"
+                                    description="Software Developer Engineer specialized in .NET Core and Azure.
                                         Also, doing RPA mostly with Selenium."
-                            twitter="https://twitter.com/InonesSebastian"
-                            linkedIn="https://www.linkedin.com/in/sebastianinones/"
-                            gitHub="https://github.com/sebainones"
-                        />
+                                    twitter="https://twitter.com/InonesSebastian"
+                                    linkedIn="https://www.linkedin.com/in/sebastianinones/"
+                                    gitHub="https://github.com/sebainones"
+                                />
 
-                        <ProfileCard name="Daniel Valcarce"
-                            role="Co-Founder"
-                            description="An experienced software developer who has focused in recent years on the field of Artificial Intelligence."
-                            twitter="https://twitter.com/davamix"
-                            linkedIn="https://www.linkedin.com/in/danielvalcarce/"
-                            gitHub="https://github.com/davamix" />
+                                <ProfileCard name="Daniel Valcarce"
+                                    role="Co-Founder"
+                                    description="An experienced software developer who has focused in recent years on the field of Artificial Intelligence."
+                                    twitter="https://twitter.com/davamix"
+                                    linkedIn="https://www.linkedin.com/in/danielvalcarce/"
+                                    gitHub="https://github.com/davamix" />
 
-                        <ProfileCard name="Ariel Grillo"
-                            role="Full stack Developer"
-                            description="Full stack developer with experience in .Net technologies."
-                            linkedIn="https://www.linkedin.com/in/arielgrillo/"
-                            gitHub="https://github.com/arielgrillo"
-                        />
+                                <ProfileCard name="Ariel Grillo"
+                                    role="Full stack Developer"
+                                    description="Full stack developer with experience in .Net technologies."
+                                    linkedIn="https://www.linkedin.com/in/arielgrillo/"
+                                    gitHub="https://github.com/arielgrillo"
+                                />
 
-                    </div>
+                            </div>
                 </section>
 
-                <section id="contact" class="contact section-bg">
-                    <div class="container">
+                        <section id="contact" class="contact section-bg">
+                            <div class="container">
 
-                        <div class="section-title">
-                            <h2 data-aos="fade-in">Contact</h2>
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-lg-12">
+                                <div class="section-title">
+                                    <h2 data-aos="fade-in">Contact</h2>
+                                </div>
 
                                 <div class="row">
 
-                                    <ContactCard iconClass="bx bx-envelope"
-                                        title="Email Us"
-                                        url="sedacode.info@gmail.com"
-                                        urlTilte="sedacode.info@gmail.com" />
+                                    <div class="col-lg-12">
 
-                                    <ContactCard
-                                        iconClass="bx bxl-linkedin-square"
-                                        title="Contact us"
-                                        url="https://www.linkedin.com/company/seda-code"
-                                        urlTilte="Seda Code"
-                                    />
+                                        <div class="row">
 
-                                    <div class="col-md-3">
-                                        <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                            <i class="bx bxl-twitter"></i>
-                                            <h3>Follow us</h3>
-                                            <p><a href="https://twitter.com/seda_code">@seda_code</a></p>
-                                        </div>
-                                    </div>
+                                            <ContactCard iconClass="bx bx-envelope"
+                                                title="Email Us"
+                                                url="sedacode.info@gmail.com"
+                                                urlTilte="sedacode.info@gmail.com" />
+
+                                            <ContactCard
+                                                iconClass="bx bxl-linkedin-square"
+                                                title="Contact us"
+                                                url="https://www.linkedin.com/company/seda-code"
+                                                urlTilte="Seda Code"
+                                            />
+
+                                            <div class="col-md-3">
+                                                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                                    <i class="bx bxl-twitter"></i>
+                                                    <h3>Follow us</h3>
+                                                    <p><a href="https://twitter.com/seda_code">@seda_code</a></p>
+                                                </div>
+                                            </div>
 
 
 
-                                    <div class="col-md-3">
-                                        <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                            <i class="bx bx-current-location"></i>
-                                            <h3>Visit us</h3>
-                                            <p><a href="https://g.page/oxygen-coworking?share">Oxygen</a> Calle de la Princesa,31, Madrid</p>
+                                            <div class="col-md-3">
+                                                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                                    <i class="bx bx-current-location"></i>
+                                                    <h3>Visit us</h3>
+                                                    <p><a href="https://g.page/oxygen-coworking?share">Oxygen</a> Calle de la Princesa,31, Madrid</p>
 
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
+                        </section>
 
 
 

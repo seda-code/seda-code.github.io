@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './assets/css/style.css'
-import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
+ import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
 
 
 class ProfileCard extends React.Component {
