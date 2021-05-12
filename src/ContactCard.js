@@ -12,7 +12,7 @@ class ContactCard extends React.Component {
     return (
       <div class="col-md-3">
         <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-          <i class={this.props.iconClass}></i>
+          <i className={this.props.iconClass}></i>
           <h3>{this.props.title}</h3>
           <p><a href={this.props.url} >{this.props.urlTitle}</a></p>
         </div>
