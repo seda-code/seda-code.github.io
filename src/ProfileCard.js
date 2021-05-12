@@ -1,7 +1,12 @@
 import React from 'react';
-import styles from './assets/css/style.css'
- import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
 
+import styles from './assets/css/style.css'
+
+import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
+import './assets/css/style.css';
+import boxIcons from './assets/vendor/boxicons/css/boxicons.css'
+import bootstrapGrid from './assets/vendor/bootstrap/css/bootstrap-grid.css'
+// import aos from './assets/vendor/aos/aos.css'  
 
 class ProfileCard extends React.Component {
   constructor(props) {
