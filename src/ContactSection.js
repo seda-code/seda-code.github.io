@@ -1,8 +1,6 @@
 import React from 'react';
 import ContactCard from './ContactCard';
 
-
-
 class ContactSection extends React.Component {
     render() {
         return (

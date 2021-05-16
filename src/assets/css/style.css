@@ -809,8 +809,13 @@ section {
   transition: 0.3s;
 }
 
-.services .card-text {
+.services .cardText {
   color: #5e5e5e;
+}
+
+.mySebas-Style
+{
+  color: #0c992f;
 }
 
 .services .read-more a {
