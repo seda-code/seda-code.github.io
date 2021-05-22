@@ -9,7 +9,7 @@ class Footer extends React.Component {
                         <div className="container" data-aos="fade-up">
 
                             <div className="row  justify-content-center">
-                                <div class="col-lg-6">
+                                <div className="col-lg-6">
                                     <h3>Seda Code</h3>
                                 </div>
                             </div>

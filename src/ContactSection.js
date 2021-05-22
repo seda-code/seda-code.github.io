@@ -4,18 +4,18 @@ import ContactCard from './ContactCard';
 class ContactSection extends React.Component {
     render() {
         return (
-            <section id="contact" class="contact section-bg">
-                <div class="container">
+            <section id="contact" className="contact section-bg">
+                <div className="container">
 
-                    <div class="section-title">
+                    <div className="section-title">
                         <h2 data-aos="fade-in">Contact</h2>
                     </div>
 
-                    <div class="row">
+                    <div className="row">
 
-                        <div class="col-lg-12">
+                        <div className="col-lg-12">
 
-                            <div class="row">
+                            <div className="row">
 
                                 <ContactCard iconClass="bx bx-envelope"
                                     title="Email Us"
@@ -45,9 +45,9 @@ class ContactSection extends React.Component {
                                 {/* TODO: */}
                                 {/* Escapar html Tags  */}
 
-                                <div class="col-md-3">
-                                    <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                        <i class="bx bx-current-location"></i>
+                                <div className="col-md-3">
+                                    <div className="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                        <i className="bx bx-current-location"></i>
                                         <h3>Visit us</h3>
                                         <p><a href="https://g.page/oxygen-coworking?share">Oxygen</a> Calle de la Princesa,31, Madrid</p>
 
