@@ -19,24 +19,24 @@ class ProfileCard extends React.Component {
     if (hasTwitter) {
       // console.log("It has Twitter");
 
-      twitterLink = <a href={this.props.twitter}><i class="icofont-twitter"></i></a>;
+      twitterLink = <a href={this.props.twitter}><i className="icofont-twitter"></i></a>;
     }
     
     return (
-      <div class="col-xl-6 col-lg-4 col-md-6">
-        <div class="card text-center">
-          <div class="member" data-aos="fade-up" data-aos-delay="100">
+      <div className="col-xl-6 col-lg-4 col-md-6">
+        <div className="card text-center">
+          <div className="member" data-aos="fade-up" data-aos-delay="100">
             <h4>{this.props.name}</h4>
             <span>{this.props.role}</span>
             <br />
             <p className={styles.cardText} >
               {this.props.description}
             </p>
-            <div class="social">
+            <div className="social">
 
               {twitterLink}
-              <a href={this.props.linkedIn}><i class="icofont-linkedin"></i></a>
-              <a href={this.props.gitHub}><i class="icofont-github"></i></a>
+              <a href={this.props.linkedIn}><i className="icofont-linkedin"></i></a>
+              <a href={this.props.gitHub}><i className="icofont-github"></i></a>
 
             </div>
           </div>

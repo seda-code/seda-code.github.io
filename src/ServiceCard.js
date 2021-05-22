@@ -10,14 +10,14 @@ class ServiceCard extends React.Component {
     render() {
 
         return (
-            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
-                <div class="card">
-                    <div class="card-img">
+            <div className="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
+                <div className="card">
+                    <div className="card-img">
                         <img src={this.props.imageSrc} alt="..." />
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="">{this.props.title}</a></h5>
-                        <p class="card-text">{this.props.description}</p>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="">{this.props.title}</a></h5>
+                        <p className="card-text">{this.props.description}</p>
 
                     </div>
                 </div>

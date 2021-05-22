@@ -14,9 +14,9 @@ class Main extends React.Component {
         return (
             <main id="main">
 
-                <section id="clients" class="clients section-bg">
-                    <div class="container">
-                        <div class="row no-gutters clients-wrap clearfix wow fadeInUp"></div>
+                <section id="clients" className="clients section-bg">
+                    <div className="container">
+                        <div className="row no-gutters clients-wrap clearfix wow fadeInUp"></div>
                     </div>
                 </section>
 

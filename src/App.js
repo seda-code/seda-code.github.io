@@ -12,7 +12,7 @@ import Slogan from './Slogan';
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <>
                 <Header />
 
                 <Slogan />
@@ -20,7 +20,7 @@ class App extends React.Component {
                 <Main />
 
                 <Footer />
-            </div>
+            </>
         );
     }
 };

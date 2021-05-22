@@ -5,10 +5,10 @@ import ProfileCard from './ProfileCard';
 class TeamSection extends React.Component {
     render() {
         return (
-            <section id="team" class="team section-bg">
-                <div class="container">
+            <section id="team" className="team section-bg">
+                <div className="container">
 
-                    <div class="section-title">
+                    <div className="section-title">
                         <h2 data-aos="fade-in">Team</h2>
                         <p data-aos="fade-in">We are an experienced team of software engineers who has been involved in several projects as varied as healthcare, fintech, insurtech, and automation among others.</p>
                     </div>
