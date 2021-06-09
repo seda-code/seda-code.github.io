@@ -25,11 +25,11 @@ class ProfileCard extends React.Component {
     return (
       <div className="col-xl-6 col-lg-4 col-md-6">
         <div className="card text-center">
-          <div className="member" data-aos="fade-up" data-aos-delay="100">
+          <div className="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <h4>{this.props.name}</h4>
             <span>{this.props.role}</span>
             <br />
-            <p className={styles.cardText} >
+            <p className="card-text" >
               {this.props.description}
             </p>
             <div className="social">
