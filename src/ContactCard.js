@@ -14,7 +14,7 @@ class ContactCard extends React.Component {
         <div className="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
           <i className={this.props.iconClass}></i>
           <h3>{this.props.title}</h3>
-          <p><a href={this.props.url} >{this.props.urlTitle}</a></p>
+          <p><a href={this.props.url} >{this.props.urlTitle}</a>{this.props.titleText}</p>
         </div>
       </div>
 
