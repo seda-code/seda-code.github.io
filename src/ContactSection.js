@@ -35,24 +35,15 @@ class ContactSection extends React.Component {
                                     urlTitle="@seda_code"
                                 />
 
+
                                 <ContactCard
                                     iconClass="bx bx-current-location"
                                     title="Visit us"
                                     url="https://g.page/oxygen-coworking?share"
-                                    urlTitle="Oxygen</a> Calle de la Princesa,31, Madrid</p>"
+                                    urlTitle="Oxygen"
+                                    titleText=" Calle de la Princesa,31, Madrid"
                                 />
 
-                                {/* TODO: */}
-                                {/* Escapar html Tags  */}
-
-                                <div className="col-md-3">
-                                    <div className="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                        <i className="bx bx-current-location"></i>
-                                        <h3>Visit us</h3>
-                                        <p><a href="https://g.page/oxygen-coworking?share">Oxygen</a> Calle de la Princesa,31, Madrid</p>
-
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
