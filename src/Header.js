@@ -1,6 +1,5 @@
 import React from 'react';
 import './assets/css/style.css'
-import  vendorStyles from './assets/vendor/icofont/icofont.min.css'
 import logoImage from './assets/img/logo_200x200.png';
 
 class Header extends React.Component {
