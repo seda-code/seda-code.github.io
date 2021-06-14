@@ -13,7 +13,7 @@ class TeamSection extends React.Component {
                         <p data-aos="fade-in">We are an experienced team of software engineers who has been involved in several projects as varied as healthcare, fintech, insurtech, and automation among others.</p>
                     </div>
 
-                    <div class="row justify-content-md-center">
+                    <div className="row justify-content-md-center">
                         <ProfileCard name="Sebastián Inones"
                             role="Co-Founder"
                             description="Software Developer Engineer specialized in .NET Core and Azure.
