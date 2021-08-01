@@ -5,7 +5,8 @@ import styles from './assets/css/style.css'
 import './assets/css/style.css';
 import boxIcons from './assets/vendor/boxicons/css/boxicons.css'
 import bootstrapGrid from './assets/vendor/bootstrap/css/bootstrap-grid.css'
-// import aos from './assets/vendor/aos/aos.css'  
+// import aos from './../assets/vendor/aos/aos.css'  
+// src/ directory. Relative imports outside of src/ are not supported.
 
 class ProfileCard extends React.Component {
   constructor(props) {
