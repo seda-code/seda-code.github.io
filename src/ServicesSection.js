@@ -25,7 +25,7 @@ class ServicesSection extends React.Component {
                             imageSrc={rpaImage} />
 
                         <ServiceCard title="Machine Learning & Analytics Services"
-                            description="We provide services creating predective and analytics models."
+                            description="We provide several services for creating predective and analytics models."
                             imageSrc={analyticsImage} />
 
 
